@@ -1,0 +1,17 @@
+.menu {
+  padding: 2rem;
+  width: 100%;
+}
+
+.articles__container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+
+  .articles__others {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

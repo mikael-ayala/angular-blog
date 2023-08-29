@@ -1,0 +1,23 @@
+.big-card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  width: 40rem;
+
+  img {
+    width: 100%;
+    min-width: 30rem;
+  }
+
+  h1 a {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-decoration: none;
+  }
+
+  p {
+    color: grey;
+    font-size: 1.6rem;
+  }
+}

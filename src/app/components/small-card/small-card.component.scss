@@ -1,0 +1,29 @@
+.small-card__container {
+  display: flex;
+  position: relative;
+
+  &::after {
+    border-bottom: 1px solid white;
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+
+  img {
+    margin-right: 2rem;
+    min-width: 20rem;
+    width: 20rem;
+  }
+
+  h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    a {
+      font-size: 3rem;
+      text-decoration: none;
+    }
+  }
+}

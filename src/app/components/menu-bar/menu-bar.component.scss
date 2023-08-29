@@ -1,0 +1,12 @@
+.menu-bar__container ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+
+  li a {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+}
+
