@@ -1,6 +1,7 @@
 .small-card__container {
   display: flex;
   position: relative;
+  width: 70rem;
 
   &::after {
     border-bottom: 1px solid white;
