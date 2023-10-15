@@ -1,12 +1,12 @@
 .articles__container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 5rem;
   margin-block: 3rem;
 
   .articles__others {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
   }
 }
